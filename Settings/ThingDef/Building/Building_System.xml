@@ -1,0 +1,42 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Building" Name="FillStoneLand" Parent="FillBase">	
+			<Color>AC9254FF</Color>
+			<ThingName>矿地改造</ThingName>
+			<Desc>将一块区域改造成土地，本工作需要消耗大量时间。</Desc>
+			<Building>
+				<FillTarrain>StoneLand</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>4800</WorkToMake>
+				</BeMade>
+			</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillLingSoil" Parent="FillBase">	
+			<Color>006550E5</Color>
+			<ThingName>灵土改造</ThingName>
+			<Desc>将一块区域改造成土地，本工作需要消耗大量时间。</Desc>
+			<Building>
+				<FillTarrain>LingSoil</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>4800</WorkToMake>
+				</BeMade>
+			</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillLingWater" Parent="FillBase">	
+			<Color>2EE2E8FF</Color>
+			<ThingName>灵水改造</ThingName>
+			<Desc>将一块区域改造成土地，本工作需要消耗大量时间。</Desc>
+			<Building>
+				<FillTarrain>LingWater</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>4800</WorkToMake>
+				</BeMade>
+			</Building>
+	</ThingDef>
+	
+</List></ThingDefs>
